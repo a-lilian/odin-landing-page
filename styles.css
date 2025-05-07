@@ -78,3 +78,22 @@ a {
     margin-bottom: 0px;
     border: none;
 }
+
+.information-container {
+    text-align: center;
+}
+
+.card-carousel {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.information-container img {
+    border-radius: 8px;
+    width: 200px;
+}
+
+.card {
+    max-width: 200px;
+}
