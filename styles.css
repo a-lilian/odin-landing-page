@@ -97,3 +97,18 @@ a {
 .card {
     max-width: 200px;
 }
+
+.quote-container {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.attribution {
+    font-weight: 900;
+    text-align: right;
+}
