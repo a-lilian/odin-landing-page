@@ -1,0 +1,1 @@
+The (Landing Page)[https://www.theodinproject.com/lessons/foundations-landing-page] project for The Odin Project. 
