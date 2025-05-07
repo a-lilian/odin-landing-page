@@ -96,6 +96,15 @@ a {
 
 .card {
     max-width: 200px;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
 .quote-container {
