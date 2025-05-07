@@ -44,3 +44,37 @@ a {
     justify-content: center;
     padding: 16px;
 }
+
+.hero-container {
+    background-color: #9ebc9f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-main {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 8px 0px 8px;
+}
+
+.hero-left {
+    max-width: 460px;
+}
+
+.hero-button {
+    background-color: #f9b970;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-bottom: 0px;
+    border: none;
+}
