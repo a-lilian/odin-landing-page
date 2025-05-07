@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .header {
@@ -121,4 +121,47 @@ h2 {
 .attribution {
     font-weight: 900;
     text-align: right;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.call-to-action-modal {
+    background-color: #f9b970;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-left {
+    max-width: 400px;
+}
+
+.modal-right {
+    display: flex;
+    align-items: flex-end;
+}
+
+.call-to-action-header {
+    font-size: 18px;
+    font-weight: 900;
+    color:#f9faf8;
+}
+
+.call-to-action-secondary-text {
+    font-size: 16;
+    color: #e5e7eb;
+}
+
+.call-to-action-button {
+    color:#f9faf8;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 5px solid #f9faf8;
 }
