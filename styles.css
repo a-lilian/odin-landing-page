@@ -15,6 +15,10 @@ body > div,
     justify-content: center;
 }
 
+.content > div {
+    padding: 64px 0px;
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -99,8 +103,7 @@ a {
     text-align: center;
 }
 
-.information-container .column,
-.quote-container .column {
+.information-container .column {
     display: block;
 }
 
@@ -126,11 +129,18 @@ h2 {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin: 0 0 32px;
 }
 
 .quote-container {
     background-color: #e5e7eb;
     color: #1f2937;
+}
+
+.quote-container .column {
+    display: block;
+    box-sizing: border-box;
+    padding: 0 48px;
 }
 
 .quote {
@@ -149,6 +159,7 @@ h2 {
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
+    padding: 48px;
 }
 
 .cta-box-left {
