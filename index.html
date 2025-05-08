@@ -5,83 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
-        <div class="header-logo">
-            Header&nbsp;Logo
+        <div class="column">
+            <div class="header-logo">
+                Header&nbsp;Logo
+            </div>
+            <ul class="header-links">
+                <li><a href="">header&nbsp;link&nbsp;one</a></li>
+                <li><a href="">header&nbsp;link&nbsp;two</a></li>
+                <li><a href="">header&nbsp;link&nbsp;three</a></li>
+            </ul>
         </div>
-        <ul class="header-links">
-            <li><a href="">header&nbsp;link&nbsp;one</a></li>
-            <li><a href="">header&nbsp;link&nbsp;two</a></li>
-            <li><a href="">header&nbsp;link&nbsp;three</a></li>
-        </ul>
     </div>
 
     <div class="content">
 
         <div class="hero-container">
-            <div class="hero-left">
-                <div class="hero-main">
-                    I'm such a hero
+            <div class="column">
+                <div class="hero-left">
+                    <div class="hero-main">
+                        I'm such a hero
+                    </div>
+                    <div class="hero-secondary">
+                        Like seriously I can't believe how heroic I am. It's amazing. You should really be impressed!
+                    </div>
+                    <button class="hero-button">
+                        Hire hero
+                    </button>
                 </div>
-                <div class="hero-secondary">
-                    Like seriously I can't believe how heroic I am. It's amazing. You should really be impressed!
+                <div class="hero-right">
+                    <img src="media/hero-image.png" alt="This is what a real hero looks like." height="200px">
                 </div>
-                <button class="hero-button">
-                    Hire hero
-                </button>
-            </div>
-            <div class="hero-right">
-                <img src="media/hero-image.png" alt="This is what a real hero looks like." height="200px">
             </div>
         </div>
 
         <div class="information-container">
-            <h2>Heroic services.</h2>
-            <div class="card-carousel">
-                <div class="card">
-                    <img src="media/card2.png" alt="Heroic Ruby capabilities.">
-                    I once read a guide about writing Ruby.
-                </div>
-                <div class="card">
-                    <img src="media/card3.png" alt="Heroic creepy cape.">
-                    I would wear an ominous shadow-y cloak if you wanted.
-                </div>
-                <div class="card">
-                    <img src="media/card4.png" alt="Heroic snail charming.">
-                    I am very popular with snails. 
-                </div>
-                <div class="card">
-                    <img src="media/card1.png" alt="A cat.">
-                    This one is literally just a cat.
+            <div class = column>
+                <h2>Heroic services.</h2>
+                <div class="card-shelf">
+                    <div class="card">
+                        <img src="media/card2.png" alt="Heroic Ruby capabilities.">
+                        I once read a guide about writing Ruby.
+                    </div>
+                    <div class="card">
+                        <img src="media/card3.png" alt="Heroic creepy cape.">
+                        I would wear an ominous shadow-y cloak if you wanted.
+                    </div>
+                    <div class="card">
+                        <img src="media/card4.png" alt="Heroic snail charming.">
+                        I am very popular with snails. 
+                    </div>
+                    <div class="card">
+                        <img src="media/card1.png" alt="A cat.">
+                        This one is literally just a cat.
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="quote-container">
-            <div class="quote">
-                <i>I'm holding out for a hero, I'm waiting for a hero for the end of the night, they've gotta be good and they've gotta be strong, and. uhh...</i>
-            </div>
-            <div class="attribution">
-                -Bonnie Taylor, I think
+            <div class="column">
+                <div class="quote">
+                    <i>I'm holding out for a hero, I'm waiting for a hero for the end of the night, they've gotta be good and they've gotta be strong, and. uhh...</i>
+                </div>
+                <div class="attribution">
+                    -Bonnie Taylor, I think
+                </div>
             </div>
         </div>
 
-        <div class="call-to-action-container">
-            <div class="call-to-action-modal">
-                <div class="modal-left">
-                    <div class="call-to-action-header">
-                        No seriously, hire me
+        <div class="cta-container">
+            <div class="column">
+                <div class="cta-box">
+                    <div class="cta-box-left">
+                        <div class="cta-header">
+                            No seriously, hire me
+                        </div>
+                        <div class="cta-secondary">
+                            It's gonna be so cool when you do. We're going to have so much fun together!
+                        </div>
                     </div>
-                    <div class="call-to-action-secondary-text">
-                        It's gonna be so cool when you do. We're going to have so much fun together!
+                    <div class="cta-box-right">
+                        <button class="cta-button">
+                            Hire hero
+                        </button>
                     </div>
-                </div>
-                <div class="modal-right">
-                    <button class="call-to-action-button">
-                        Hire hero
-                    </button>
                 </div>
             </div>
         </div>
