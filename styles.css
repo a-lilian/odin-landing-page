@@ -90,7 +90,7 @@ a {
 }
 
 .hero-button {
-    background-color: #f9b970;
+    background-color: #ffa33a;
     color: #f9faf8;
     font-size: 18px;
     font-weight: 900;
@@ -156,7 +156,7 @@ h2 {
 
 .cta-box {
     flex: auto;
-    background-color: #f9b970;
+    background-color: #ffa33a;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
